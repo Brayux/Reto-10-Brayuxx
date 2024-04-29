@@ -1,6 +1,6 @@
 # Reto-10-Brayuxx
 Punto 1: Promedio de un arreglo de reales
-''' python
+'''python
 #Cree una lista donde los números sean representados por variables que el usuario digitara
 def promedio(a:float, b:float, c:float) -> float:
     #Funcion para hacer el cálculo del promedio
