@@ -1,6 +1,6 @@
 # Reto-10-Brayuxx
 Punto 1: Promedio de un arreglo de reales
-'''python
+```python
 #Cree una lista donde los números sean representados por variables que el usuario digitara
 def promedio(a:float, b:float, c:float) -> float:
     #Funcion para hacer el cálculo del promedio
@@ -16,4 +16,26 @@ if __name__=="__main__":
     #llamamos la función
     dio=promedio(a,b,c)
     print(f"El promedio de su arreglo de valores reales es de: {dio:.3f}")
-    '''
+    ```
+Punto 2: Producto punto de dos arreglos
+````python
+#Calcular  Punto punto de dos arreglos de reales de igual tamaño.
+#Creamos 2 listas
+listaA = [10,20,30,40,50]
+listaB = [2,3,4,5,6]
+#Le damos valor 0 a nuestra variable
+Punto : int = 0
+#Se utiliza For para hacer el procedimiento del producto
+for i in range(len(listaA)):
+    Punto = Punto + (listaA[i]*listaB[i])
+print(Punto)
+````
+Punto 3
+````python
+````
+Punto 4: Bubble-Sort?
+Bubble-sort es un algoritmo de clasificación  el cual va  reemplazando iterativamente elementos  si están desordenados con el fin de ordenarlos de menor a mayor sin embargo existe un problema y es que este algoritmo no es adecuado para grandes conjuntos de datos porque su complejidad temporal se vuelve alta a medida que la lista incremente sus elementos ya que utilizaria mas condicionales
+:)
+
+
+
