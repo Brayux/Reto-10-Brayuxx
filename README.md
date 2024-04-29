@@ -16,7 +16,7 @@ if __name__=="__main__":
     #llamamos la función
     dio=promedio(a,b,c)
     print(f"El promedio de su arreglo de valores reales es de: {dio:.3f}")
-    ```
+```
 Punto 2: Producto punto de dos arreglos
 ````python
 #Calcular  Punto punto de dos arreglos de reales de igual tamaño.
